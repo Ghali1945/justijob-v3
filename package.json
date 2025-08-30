@@ -1,74 +1,7 @@
 {
-  "name": "justijob-nextjs-version-3",
-  "version": "3.0.0",
-  "description": "JustiJob - Plateforme IA d'assistance juridique aux Prud'hommes",
-  "private": true,
-  "author": "JustiJob Team",
-  "license": "Proprietary",
-  "keywords": [
-    "juridique",
-    "prudhommes",
-    "ia",
-    "nextjs",
-    "react"
-  ],
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "export": "next build && next export",
-    "netlify-build": "next build",
-    "preview": "next build && next start",
-    "clean": "rm -rf .next node_modules package-lock.json && npm install",
-    "test": "echo \"No tests configured yet\"",
-    "analyze": "cross-env ANALYZE=true next build"
-  },
-  "dependencies": {
-    "@tailwindcss/postcss": "^4.1.12",
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.395.0",
-    "next": "14.2.5",
-    "postcss-preset-env": "^10.3.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-dropzone": "^14.2.3",
-    "tailwind-merge": "^2.3.0"
-  },
-  "devDependencies": {
-    "@netlify/plugin-nextjs": "^5.3.2",
-    "@types/node": "^20.14.9",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "autoprefixer": "^10.4.19",
-    "cross-env": "^7.0.3",
-    "eslint": "^8.57.0",
-    "eslint-config-next": "14.2.5",
-    "postcss": "^8.4.39",
-    "tailwindcss": "^3.4.4"
-  },
-  "engines": {
-    "node": ">=18.17.0",
-    "npm": ">=9.0.0"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/votre-username/justijob-v3.git"
-  },
-  "bugs": {
-    "url": "https://github.com/votre-username/justijob-v3/issues"
-  },
-  "homepage": "https://justijob.netlify.app"
+  "name": "justijob",
+  "version": "5.0.0",
+  "description": "JustiJob v5 - Avec protection juridique intégrée"
+  ...
 }
+
